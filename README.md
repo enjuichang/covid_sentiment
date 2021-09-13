@@ -3,7 +3,7 @@
 I used the [Coronavirus Tweet Data](https://www.kaggle.com/datatattle/covid-19-nlp-text-classification) from Kaggle to perform sentiment analysis...
 
 ## Structure of the data
-
+```
 │
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
@@ -23,3 +23,4 @@ I used the [Coronavirus Tweet Data](https://www.kaggle.com/datatattle/covid-19-n
    │
    └── data             <- Scripts to download or generate data
        └── fetch_data.py
+```
