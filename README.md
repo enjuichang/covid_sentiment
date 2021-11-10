@@ -29,6 +29,12 @@ from Kaggle.
 │   ├── Traditional    <- The training of traditional statistical models.
 │   └── Neural         <- The training of neural network models.
 │
+├── templates          <- HTML code for model deployment.
+│
+├── app.py             <- Code for deploying of the model.
+│
+├── Procfile           <- Procfile for Heroku.
+│
 └─── requirements.txt  <- The requirements file for reproducing the analysis environment.
 
 ```
