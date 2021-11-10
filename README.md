@@ -1,25 +1,34 @@
-# Covid Sentiment Analysis
+#  Covid Sentiment Analysis with SpaCy
 
-I used the [Coronavirus Tweet Data](https://www.kaggle.com/datatattle/covid-19-nlp-text-classification) from Kaggle to perform sentiment analysis...
+*First time creating a NLP classification project? Want to have hands-on experience with SpaCy? Want to work with tweet datasets?*
+
+In this article, we will go through the main concepts of NLP project, including the data selection, exploratory data analysis, 
+NLP preprocessing, NLP models (statistical/neural language models), metrics selection, and implementation on another dataset. 
+The dataset of interest is the COVID-19 tweet dataset on Kaggle, while all NLP-related tasks are performed using SpaCy.
+
+The data source is the [Coronavirus Tweet Data](https://www.kaggle.com/datatattle/covid-19-nlp-text-classification) dataset 
+from Kaggle.
 
 ## Structure of the data
 ```
 │
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
+│   ├── raw            <- The original, immutable data dump.
+│   └── processed      <- The final, canonical data sets for modeling.
+│
+├── config             <- Config files for training in spaCy.
 │
 ├── models             <- Trained and serialized models, model predictions, or model summaries.
 │
-├── notebooks          <- Jupyter notebooks created in the project.
+├── images             <- Images for the notebooks.
 │
-└─── requirements.txt   <- The requirements file for reproducing the analysis environment.
+├── notebooks          <- Serialized Jupyter notebooks created in the project.
+│   ├── All            <- Notebook that includes all codes.
+│   ├── EDA            <- Exploratory data analysis process.
+│   ├── Traditional    <- The training of traditional statistical models.
+│   └── Neural         <- The training of neural network models.
 │
-└─── src                <- Source code for use in this project.
-   │
-   └── data             <- Scripts to download or generate data
-       └── fetch_data.py
+└─── requirements.txt  <- The requirements file for reproducing the analysis environment.
+
 ```
